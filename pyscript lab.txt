@@ -1,8 +1,18 @@
+<<<<<<< HEAD
 <py-script>
-input_box = Element ("operand0ne)
-operand0ne = float (input_box.value)
+input_box = Element("operand0ne)
+operand0ne = float(input_box.value)
 </py-script>
 <py-script>
-result = Element ("total")
-result.write ("Hello! The input says:" + str(operand0ne))
+result = Element("total")
+result.write("Hello! The input says:" + str(operand0ne))
+=======
+<py-script>
+input_box = Element("operand0ne)
+operand0ne = float(input_box.value)
+</py-script>
+<py-script>
+result = Element("total")
+result.write("Hello! The input says:" + str(operand0ne))
+>>>>>>> bb02b56706ecfd7c58fefd4301dfdd74970275ff
 </py-script>
